@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Udemy JavaScript projects</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
+    <style>
+        :root {
+            --main-bg-color: #fafafa;;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Sofia Pro", sans-serif;
+            background-color: var(--main-bg-color);
+        }
+
+        .footer {
+            background-color: var(--main-bg-color);
+        }
+    </style>
+</head>
+    <body class="h-full flex flex-col justify-center items-center">
+        <div class="w-full text-center my-12 md:my-20 lg:my-32" >
+            <h1 class="text-2xl md:text-4xl lg:text-6xl font-black">Udemy JavaScript projects</h1>
+            <p class="text-base md:text-xl lg:text-xl font-base mt-4">These projects are built in the <b>'Complete JavaScript'</b> course from Udemy</p>
+        </div>
+
+        <div class="w-4/5 flex flex-row flex-wrap justify-around gap-10">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg border-2 border-white hover:border-green-300 duration-300">
+                <div class="px-8 py-6 h-full flex flex-col justify-between">
+                    <img class="w-full" src="./GuessMyNumber/thumbnail.png" alt="Placeholder">
+                    <div class="font-bold text-xl my-2">Guess My Number</div>
+                    <p class="text-gray-700 text-base">
+                        A simple calculation application. You can enter a number, than the application will say if its the correct one.
+                    </p>
+                    <div class="w-full text-center">
+                        <button class="mt-4 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                            <a href="./GuessMyNumber/index.html">Go to project</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-sm rounded overflow-hidden shadow-lg border-2 border-white hover:border-red-300 duration-300">
+                <div class="px-8 py-6 h-full flex flex-col justify-between">
+                    <img class="w-full" src="./BankistApp/thumbnail.PNG" alt="Placeholder">
+                    <div class="font-bold text-xl mb-2">Bankist App</div>
+                    <p class="text-gray-700 text-base">
+                        A minimalistic banking app. You can see and adjust your wealth.
+                    </p>
+                    <div class="w-full text-center">
+                        <button href="GuessMyNumber/index.html" class="mt-4 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                            <a href="./BankistApp/index.html">Go to project</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-sm rounded overflow-hidden shadow-lg border-2 border-white hover:border-blue-300 duration-300">
+                <div class="px-8 py-6 h-full flex flex-col justify-between">
+                    <img class="w-full" src="./BankistWebsite/thumbnail.png" alt="Placeholder">
+                    <div class="font-bold text-xl mb-2">Bankist Website</div>
+                    <p class="text-gray-700 text-base">
+                        A really cool landingspage! For the Bankist application.
+                    </p>
+                    <div class="w-full text-center">
+                        <button class="mt-4 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                            <a href="./BankistWebsite/index.html">Go to project</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer w-full text-center py-4 mt-4">
+        <p>Made by: Martijn Jongman</p>
+    </div>
+    </body>
+</html>
